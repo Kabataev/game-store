@@ -1,0 +1,20 @@
+.header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  &__wrapper{
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  &__cart-btn-wrapper{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
+  }
+}
