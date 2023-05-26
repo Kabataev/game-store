@@ -1,6 +1,6 @@
 import {NavLink} from 'react-router-dom'
 import './header.scss'
-import Cart from '../Cart/Cart'
+import Cart from '../GameCart/Cart'
 
 function Header() {
   return (

@@ -72,6 +72,7 @@ function Home() {
     <div className="home-page">
       {GAMES.map((game) => (
         <GameItem
+          game={game}
           img={game.image}
           price={game.price}
           title={game.title}

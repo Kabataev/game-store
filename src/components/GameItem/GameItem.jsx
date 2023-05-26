@@ -12,7 +12,7 @@ function GameItem(props) {
         <div className="game__genre">{props.genres.map((genre) =>
          <GameGenre genre={genre} key={genre}/>)}</div>
         <div className="game__btn-buy">
-          <GameBuy price={props.price} key={props.id} />
+          <GameBuy game={props.game} price={props.price} key={props.id} />
         </div>
       </div>
     </div>
