@@ -1,8 +1,10 @@
 import {configureStore} from '@reduxjs/toolkit'
-import cartReucer from './cart/reducer'
+import cartReducer from './cart/reducer'
+import gamesReducer from './games/reducer'
 
 export const store = configureStore({
   reducer:{
-    cart:cartReucer
+    cart:cartReducer,
+    games:gamesReducer
   },
 })

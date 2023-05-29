@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {deleteItemFromCart, setItemInCart} from '../../redux/cart/reducer'
 import  './game-buy.scss'
 
-function GameBuy(props ) {
+function GameBuy(props) {
   const dispatch = useDispatch()
   const items =  useSelector(state => state.cart.itemsInCart)
   const isItemInCart = items.some(item => item.id === props.game.id)
